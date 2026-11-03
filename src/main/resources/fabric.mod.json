@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "meteorx",
+  "version": "${version}",
+  "name": "MeteorX",
+  "description": "Meteor-inspired addon with modules from Meteor + LiquidBounce + DoomsDay style. Clean native GUI. For 1.21.4",
+  "authors": ["MeteorX"],
+  "contact": {},
+  "license": "GPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.meteorx.MeteorX"
+    ]
+  },
+  "mixins": [
+    "meteorx.mixins.json"
+  ],
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.4",
+    "fabricloader": ">=0.16.0",
+    "meteor-client": "*"
+  }
+}
