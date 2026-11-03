@@ -1,39 +1,34 @@
-# MeteorX (1.21.4)
+# MeteorX — 26.3 Branch
 
-Meteor Client Addon – clean native Meteor GUI + modules inspired by Meteor / LiquidBounce / DoomsDay.
+Meteor Client Addon for **Minecraft 26.3**
 
-**Target:** Minecraft **1.21.4** (Java 21 friendly so it can be built easily)
+Clean native Meteor GUI + modules inspired by Meteor / LiquidBounce / DoomsDay.
 
-## Modules included
-Combat: KillAuraPlus, TriggerBot, VelocityPlus, CriticalsPlus, AutoTotemPlus, AimAssist  
-Movement: SpeedPlus, Strafe, FlightPlus, ScaffoldPlus, NoSlowPlus, JesusPlus, SpiderPlus  
-Render: ESPPlus, TracersPlus, NametagsPlus, XrayPlus, FullbrightPlus, StorageESP  
-Player: AutoArmorPlus, FastUse, NoFallPlus, InventoryMove  
-World: NukerPlus, TimerPlus  
-Misc: MiddleClickFriend, DiscordRPC
+> **Note:** This branch requires **Java 25** and the latest Loom.
 
-## Build (on your machine)
+## Modules
+Same module list as main (1.21.4) branch.
+
+## Build
 
 ```bash
-# Need Java 21+
+# Need Java 25+
 java -version
 
-# In the MeteorX folder
-./gradlew build
-# or if no wrapper yet:
-gradle wrapper --gradle-version 8.12
 ./gradlew build
 ```
 
-Jar → `build/libs/meteorx-1.0.0-1.21.4.jar`
+Jar → `build/libs/meteorx-1.0.0-26.3.jar`
 
 ## Install
-1. Fabric for 1.21.4
-2. Meteor Client for 1.21.4
+1. Fabric for 26.3
+2. Meteor Client 26.3
 3. Fabric API
 4. Drop the jar in mods/
 5. Right Shift → modules appear in normal Meteor categories
 
 Works with Sodium + performance mods.
 
-Want the 26.3 version later? Just say and we can switch back when you have Java 25.
+## Branches
+- `main` → Minecraft **1.21.4** (Java 21)
+- `26.3` → Minecraft **26.3** (Java 25)
